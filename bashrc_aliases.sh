@@ -1,3 +1,26 @@
+set -o vi
+
+alias update='sudo apt update'
+alias upgrade='sudo apt upgrade'
+alias install='sudo apt install'
+alias remove='sudo apt remove'
+alias search='apt search'
+alias pkgsearch='apt list'
+alias flsearch='apt search'
+alias pkglist='apt list --installed'
+alias pkgshow='apt show'
+
+#alias update='sudo xbps-install -S'
+#alias upgrade='sudo xbps-install -u'
+#alias install='sudo xbps-install'
+#alias remove='sudo xbps-remove'
+#alias search='sudo xbps-query -s'
+#alias pkgsearch='sudo xbps-query -R'
+#alias flsearch='sudo xbps-query -Rs'
+#alias pkglist='sudo xbps-query -l'
+#alias pkgshow='sudo xbps-query -S'
+
+## A -- Z
 # q for qutebrowser
 alias q='qutebrowser'
 #t
@@ -64,10 +87,4 @@ alias oc='opencode'
 
 alias ll='eza -la'   # if you have eza, otherwise ls -la
 
-set -o vi
-
 export PATH="$HOME/.cargo/bin:$PATH"
-alias update='sudo apt update'
-alias upgrade='sudo apt upgrade'
-alias install='sudo apt install'
-alias remove='sudo apt remove'
