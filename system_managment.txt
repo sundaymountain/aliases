@@ -1,0 +1,63 @@
+
+ln -s /home/max/anyfile.txt /home/max/games/anyfile.txt -------- -s is for softlink
+mkdir -p /Creative/Drawing/2025 -------- -p is for parent, meaning it can create all directories inside each othe in a single command
+find ~ -empty
+find ~ -name "NoText.txt" -------- displays the location of the file on bash after it finds it
+find ~ -name "gcc*"
+find . -name "*.txt"				// search the current directory
+find / -name "gcc*"				// search the entire system
+
+cat NoText.txt
+grep "information" NoText.txt
+grep -r "error"					//
+grep -r "error" *				//
+
+
+using find + cat?? to find a file in the system by its name then displaying its content
+find /path/to/search -name "filename" -exec cat {} +
+using cat + grep?? it is really benifet to using cat + grep instead of just using grep?
+cat NoText.txt | grep "information"
+
+
+tar zcvf file.tar.gz /images
+tar zxvf file.tar.gz
+
+tar vs gzip?? tar is making directories & files all to a single file then piping it to gzip for compression.
+cat	less	head	tail
+using "less" command or a better one?
+
+chmod 700 file.txt
+chown root file.txt
+chown alex:root file.txt
+
+/var						//Persistent variable data (like blackbox)
+/var/log					//system activities(log files)
+/etc/						//contains system configuration files
+/usr/var					//
+~.config/					//user configuration
+/usr						//all programs, commands, shared libraries.
+/usr/bin
+/usr/tmp
+/usr/local
+
+/run
+/tmp						//stores temporary files
+/var
+/run						//stores runtime data similar to ram (unlike /var)
+/dev						//stores device file
+
+rust: cargo(package manager) rustc(compiler) rustup(set up both on linux)
+
+opencode agent create
+
+man -k write
+
+
+useradd
+userdel
+usermod
+
+groupadd
+groupdel
+groupmod
+id
