@@ -23,16 +23,16 @@ alias pkgshow='apt show'
 ## A -- Z
 # q for qutebrowser
 alias q='qutebrowser'
-#t
+#t for tmux?
 alias t='tmux'
-y
-u
-i
-o
-p
-a
-s
-d
+#y
+#u
+#i
+#o
+#p
+#a
+#s
+#d
 #f
 alias f='fd' #find vs fd
 alias ff='fzf' #
@@ -42,21 +42,18 @@ alias gg='ripgrep'
 #h
 alias h='htop'
 alias hh='btop'
-j
-k
-z
-x
-c
+#j
+#k
+#z
+#x
+#c for clear
+alias c='clear'
 #v for nvim
 alias v='nvim'
 #b
 alias bat='/bin/batcat'
-n
-m
-
-
-oc for opencode
-
+#n
+#m
 
 #Git (most used):
 alias g='git'
